@@ -1,0 +1,16 @@
+name: 'AWS Account Profile Add'
+description: 'Add an AWS Account Profile to the ~/.aws/credentials file'
+inputs:
+  name:
+    description: 'Name of the profile'
+    required: true
+    default: default
+  aki:
+    description: 'Access Key ID'
+    required: true
+  sak:
+    description: 'Secret Access Key'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

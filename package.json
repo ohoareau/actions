@@ -1,0 +1,18 @@
+{
+  "name": "@ohoareau/actions",
+  "version": "0.0.0",
+  "description": "GitHub JS Actions by Olivier Hoareau",
+  "author": "Olivier Hoareau <oha+oss@greenberets.io>",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --config jest.config.js"
+  },
+  "workspaces": [
+    "./*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.0",
+    "jest": "^26.0.1"
+  }
+}

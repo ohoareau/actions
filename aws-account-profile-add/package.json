@@ -1,0 +1,15 @@
+{
+  "name": "@ohoareau/github-action-aws-account-profile-add",
+  "version": "1.0.0",
+  "description": "This action creates/updates the ~/.aws/credentials file and store a new profile in it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.4"
+  }
+}

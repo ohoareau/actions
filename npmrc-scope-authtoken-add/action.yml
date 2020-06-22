@@ -1,0 +1,15 @@
+name: '.npmrc Scope Auth-Token Add'
+description: 'Add a new scope auth-token entry in the ~/.npmrc file'
+inputs:
+  scope:
+    description: 'Scope'
+    required: true
+  token:
+    description: 'Token'
+    required: true
+  registry:
+    description: 'Registry'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

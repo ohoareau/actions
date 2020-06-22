@@ -1,0 +1,9 @@
+{
+  "default": {
+    "prod": "prod",
+    "master": "preprod",
+    "release": "test",
+    "develop": "dev",
+    "default": "dev"
+  }
+}

@@ -1,0 +1,12 @@
+name: 'Branch to Env'
+description: 'Set the Env environment variable from the current branch using mapping'
+inputs:
+  secrets:
+    description: optional json stringified secrets list
+    required: false
+  branch:
+    description: optional branch name to use (if not present, retrieved from GITHUB_REF env var)
+    required: false
+runs:
+  using: 'node12'
+  main: 'index.js'

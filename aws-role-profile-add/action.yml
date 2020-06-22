@@ -1,0 +1,16 @@
+name: 'AWS Role Profile Add'
+description: 'Add an AWS Role Profile to the ~/.aws/config file'
+inputs:
+  name:
+    description: 'Name of the profile'
+    required: true
+    default: default
+  source:
+    description: 'Source Profile'
+    required: true
+  role:
+    description: 'Role ARN'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
