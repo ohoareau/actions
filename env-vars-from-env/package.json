@@ -1,0 +1,15 @@
+{
+  "name": "@ohoareau/github-action-env-vars-from-env",
+  "version": "1.0.0",
+  "description": "This action retrieved some env vars prefixed with the specified env name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.4"
+  }
+}

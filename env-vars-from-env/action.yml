@@ -1,0 +1,12 @@
+name: 'Env Vars from Env'
+description: 'Retrieved some env vars prefixed with the specified env name'
+inputs:
+  secrets:
+    description: optional json stringified secrets list
+    required: false
+  env:
+    description: env name to use
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
