@@ -8,5 +8,5 @@ inputs:
     description: optional branch name to use (if not present, retrieved from GITHUB_REF env var)
     required: false
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
